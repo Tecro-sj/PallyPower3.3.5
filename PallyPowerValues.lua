@@ -82,7 +82,7 @@ PALLYPOWER_DEFAULT_VALUES = {
 	}
 };
 
-PallyPower_Credits1 = "Pally Power Classic+ - by Aznamir (fixed by Tecro) ";
+PallyPower_Credits1 = "Pally Power - by Aznamir (fix by Tecro) ";
 --PallyPower_Credits2 = "Version "..PallyPower_Version;
 
 PallyPower.BuffBarTitle = "Pally Buffs (%d)";
