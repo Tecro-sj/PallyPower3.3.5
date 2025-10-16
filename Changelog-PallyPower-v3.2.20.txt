@@ -1,0 +1,36 @@
+------------------------------------------------------------------------
+r144 | tecro | 2025-10-15 | Custom Build
+Changed paths:
+   M /trunk/PallyPower.lua
+
+Fixed raid leader permission system and UI synchronization:
+- Fixed CanControl() to properly grant raid leaders permission to modify all paladin assignments
+- Raid leaders can now change assignments for all paladins, not just those with Free Assignment enabled
+- Added UpdateLayout() call after receiving SELF messages to ensure other paladins appear in the UI immediately
+- Added UpdateLayout() call after receiving ASELF messages for consistency
+- Fixed issue where other paladins would not appear in the assignment interface
+- Ensured level 1 paladins without spells can still sync with other paladins
+- Added debug commands: /ppd (show sync status) and /ppsync (force sync)
+- CRITICAL FIX: Fixed CHAT_MSG_ADDON event handler to use WoW 3.3.5 arg1-arg4 globals instead of function parameters
+
+This allows raid leaders to properly manage buff assignments for all paladins in the raid.
+------------------------------------------------------------------------
+r143 | aznamir | 2010-08-20 10:57:34 +0000 (Fri, 20 Aug 2010) | 1 line
+Changed paths:
+   A /tags/v3.2.20 (from /trunk:142)
+
+Tagging as v3.2.20
+------------------------------------------------------------------------
+r141 | aznamir | 2010-07-20 23:34:09 +0000 (Tue, 20 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/embeds.xml
+
+removed RosterLib references
+------------------------------------------------------------------------
+r139 | aznamir | 2010-07-20 23:27:34 +0000 (Tue, 20 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/PallyPower.lua
+
+improved pet class detection logic, corrected 'show when single' option
+------------------------------------------------------------------------

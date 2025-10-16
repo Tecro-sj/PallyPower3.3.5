@@ -1,0 +1,96 @@
+-- Create the library instance
+local L = LibStub("AceLocale-3.0"):NewLocale("PallyPower", "zhTW")
+
+-- Register translations
+if L then
+
+	L["AURAS"] = "光環"
+	L["AURAS_DESC"] = "光環監視開啟/關閉"
+	L["AUTOASSIGN"] = "自動指派"
+	L["AUTOBTN"] = "顯示自動祝福按鈕"
+	L["AUTOBTN_DESC"] = "顯示/隱藏自動祝福按鈕"
+	L["AUTOBUFF"] = "自動祝福"
+	L["AUTOBUFF_DESC"] = "自動祝福選項"
+	L["AUTOKEY1"] = "自動一般祝福鍵"
+	L["AUTOKEY1_DESC"] = "一般祝福按鍵設定."
+	L["AUTOKEY2"] = "自動強效祝福鍵"
+	L["AUTOKEY2_DESC"] = "強效祝福按鍵設定."
+	L["BAS"] = "祝福管理"
+	L["BAS_DESC"] = "打開祝福管理視窗"
+	L["BRPT"] = "祝福分配報告"
+	L["BRPT_DESC"] = "向團隊/小隊報告祝福分配情況"
+	L["BSC"] = "主視窗大小"
+	L["BSC_DESC"] = "設定祝福施加視窗的大小"
+	L["CSC"] = "選項視窗大小"
+	L["CSC_DESC"] = "設定選項視窗的大小"
+	L["DISABLED"] = "停用"
+	L["DISP"] = "顯示設定"
+	L["DISPCL"] = "職業按鈕"
+	L["DISPCL_DESC"] = "職業按鈕方向設定"
+	L["DISPCOL"] = "列數"
+	L["DISPCOL_DESC"] = "設定列數"
+	L["DISP_DESC"] = "祝福施加視窗的設定"
+	L["DISPEDGES"] = "顯示按鈕的稜角"
+	L["DISPEDGES_DESC"] = "顯示玩家按鈕的稜角"
+	L["DISPGAP"] = "間隔"
+	L["DISPGAP_DESC"] = "設定按鈕間距"
+	L["DISPPL"] = "玩家按鈕"
+	L["DISPPL_DESC"] = "玩家按鈕方向設定"
+	L["DISPROWS"] = "行數"
+	L["DISPROWS_DESC"] = "設定行數"
+	L["DRAGHANDLE"] = [=[左鍵拖曳移動
+左鍵點擊以鎖定 / 解除鎖定
+右鍵點擊打開設定]=]
+	L["ENABLED"] = "啟用"
+	L["FREEASSIGN"] = "自由指派"
+	L["FREEASSIGN_DESC"] = "允許其他人改變你的祝福設定而不需為隊長/助手"
+	L["GREATER"] = "強效祝福"
+	L["GREATER_DESC"] = "啟用/禁用強效祝福"
+	L["HIDECB"] = "自動隱藏職業按鈕"
+	L["HIDECB_DESC"] = "自動隱藏職業按鈕"
+	L["BLINKPA"] = "Flash 播放器/自動按鈕"
+	L["BLINKPA_DESC"] = "Flash 播放器/自動按鈕"
+	L["CLASSC"] = "職業顏色"
+	L["CLASSC_DESC"] = "職業顏色"
+	L["CLASSCN"] = "類別顏色名稱"
+	L["CLASSCN_DESC"] = "類別顏色名稱"
+	L["HIDEDH"] = "隱藏拖動錨點"
+	L["HIDEDH_DESC"] = "顯示/隱藏拖動錨點"
+	L["HIDEPB"] = "隱藏玩家按鈕"
+	L["HIDEPB_DESC"] = "顯示/隱藏玩家按鈕"
+	L["IGNOREEXTRA"] = "忽略 6-8 隊"
+	L["IGNOREEXTRADESC"] = "忽略在 6-8 隊待命的隊員"
+	L["LAYOUT"] = "螢幕配置"
+	L["LAYOUT_DESC"] = "自訂螢幕配置"
+	L["PET_FELHUNTER"] = "Felhunter" -- Requires localization
+	L["PET_GHOUL"] = "Ghoul" -- Requires localization
+	L["PET_IMP"] = "Imp" -- Requires localization
+	L["PET_SUCCUBUS"] = "Succubus" -- Requires localization
+	L["PP_CLEAR"] = "清除"
+	L["PP_OPTIONS"] = "設定"
+	L["PP_RAS1"] = "--- 聖騎士祝福分配 ---"
+	L["PP_RAS2"] = "--- 分配通告結束 ---"
+	L["PP_REFRESH"] = "更新"
+	L["RESET"] = "重置位置"
+	L["RESET_DESC"] = "將所有PallyPower視窗重置回畫面中央"
+	L["RFBUFF"] = "正義之怒"
+	L["RFBUFF_DESC"] = "正義之怒監視開啟/關閉"
+	L["RFUSE"] = "神聖之怒"
+	L["RFUSE_DESC"] = "神聖之怒 啟動/關閉"
+	L["SBUFF"] = "智能選擇祝福"
+	L["SBUFF_DESC"] = "在選擇祝福時為某些職業忽略特定的祝福"
+	L["SEAL"] = "聖印"
+	L["SEAL_DESC"] = "聖印"
+	L["SHOWPARTY"] = "在小隊時顯示"
+	L["SHOWPARTY_DESC"] = "當加入一個小隊後顯示/隱藏祝福施加視窗"
+	L["SHOWSINGLE"] = "在單獨時顯示"
+	L["SHOWSINGLE_DESC"] = "當單獨一人顯示/隱藏祝福施加視窗"
+	L["SKIN"] = "皮膚"
+	L["SKIN_DESC"] = "套用自訂的背景到祝福按鈕上"
+	L["SPET"] = "Smart pets" -- Requires localization
+	L["SPET_DESC"] = "Smart pet handling. Attach pets to classes responsible for their greater buffs." -- Requires localization
+	L["WAIT"] = "等待所有隊友"
+	L["WAIT_DESC"] = "是否等待所有隊友都在線上且於祝福範圍內才施放祝福"
+	L["Water Elemental"] = "Water Elemental" -- Requires localization
+
+end
