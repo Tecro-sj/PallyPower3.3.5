@@ -1,6 +1,6 @@
 r145 r144 | tecro | 2025-10-17 | Custom Build
 ------------------------------------------------------------------------
-Changed Layout Selection "Standard" too default.
+Changed layout selection "Standard" too default.
 ------------------------------------------------------------------------
 r144 | tecro | 2025-10-15 | Custom Build
 Changed paths:
