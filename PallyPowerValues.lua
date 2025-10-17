@@ -78,7 +78,7 @@ PALLYPOWER_DEFAULT_VALUES = {
 		seal = 1,
 		aura = 1,
 		disabled = false,
-		layout = "Layout 1",
+		layout = "Standard",
 	}
 };
 
