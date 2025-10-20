@@ -1,7 +1,4 @@
-## Last Fix
--  10/17/25 Layout selection "Standard" is now selected as default.
--  10/15/25 Group Assignment works now. If you have any problems, let me know.
--  10/15/25 I added two new funktions too debug /ppsync and /ppd. One is for sync between the PallyPower and the other ppd shows a chat output with all Paladins in grp/raid that are synced.
+## For last changes / fixes check out the Changelog file
 
 ## Install Help
 - Go into Interface/Addons and create a PallyPower folder
