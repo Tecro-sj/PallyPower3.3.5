@@ -12,4 +12,4 @@
 - go into your Game Files. ("C:\Program Files\Ascension Launcher\resources\client\Interface\AddOns" something like this)
 - create a folder named "PallyPower"
 - go inside the Zip file and open "PallyPower_3.3.5_for_AscensionReborn_classic-main" 
-- Copy everything inside the folder into the "PallyPower" folder
+- Copy everything inside into the "PallyPower" folder
